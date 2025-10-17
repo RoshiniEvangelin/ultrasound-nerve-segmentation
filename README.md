@@ -4,7 +4,7 @@ It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using P
 -----------------------------------------------
 PROJECT OVERVIEW
 This project implements a U-Net-based deep learning model to automatically segment nerves from ultrasound images.
-It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch.
+It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch. 
 -----------------------------------------------
 FOLDER STRUCTURE
 nerve/
