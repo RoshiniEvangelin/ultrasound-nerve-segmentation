@@ -1,5 +1,5 @@
 <font size="2">
-# Ultrasound-Nerve-Segmentation
+# **Ultrasound-Nerve-Segmentation**
 This project implements a U-Net-based deep learning model to automatically segment nerves from ultrasound images.
 It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch.
 
@@ -8,7 +8,7 @@ This project implements a U-Net-based deep learning model to automatically segme
 It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch. 
 
 
-FOLDER STRUCTURE
+**FOLDER STRUCTURE**
 nerve/
 ├── src/
 │   ├── model.py           # U-Net model architecture
@@ -20,16 +20,16 @@ nerve/
 ├── requirements.txt       # Dependencies
 └── .gitignore
 
-DATASET
+**DATASET**
 
 This project uses the Ultrasound Nerve Segmentation dataset from Kaggle.
 You need to download it manually or via the Kaggle API.
 
-🔗 DATASET LINK:
+**🔗 DATASET LINK:**
 Kaggle: https:https://www.kaggle.com/competitions/ultrasound-nerve-segmentation/data
 
 
-HOW TO DOWNLOAD
+**HOW TO DOWNLOAD**
 Option 1 — Manually
 Go to the link above and click Download All.
 Extract the zip file.
@@ -46,7 +46,7 @@ dataset/
         └── ...
 
 
-⚙️INSTALLATION AND SETUP
+⚙️**INSTALLATION AND SETUP**
 1.Clone this repository:git clone 
 https://github.com/ROSHINI0211/ultrasound-nerve-segmentation.git
 cd ultrasound-nerve-segmentation
@@ -58,8 +58,7 @@ python -m src.train
 4.Making Predictions
 python -m src.predict
 
-
-MODEL DETAILS
+**MODEL DETAILS**
 Architecture: U-Net
 Loss: 50% Binary Cross-Entropy + 50% Dice Loss
 Optimizer: Adam (lr=1e-5)
@@ -68,7 +67,7 @@ Metric: Dice Coefficient
 Epochs: 40
 
 
-TECHNOLOGIES USED
+**TECHNOLOGIES USED**
 Python 3.10
 PyTorch
 OpenCV
