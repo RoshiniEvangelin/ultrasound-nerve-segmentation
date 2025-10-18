@@ -2,11 +2,12 @@
 # Ultrasound-Nerve-Segmentation
 This project implements a U-Net-based deep learning model to automatically segment nerves from ultrasound images.
 It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch.
------------------------------------------------
+
 PROJECT OVERVIEW
 This project implements a U-Net-based deep learning model to automatically segment nerves from ultrasound images.
 It was trained on the Ultrasound Nerve Segmentation dataset from Kaggle, using PyTorch. 
------------------------------------------------
+
+
 FOLDER STRUCTURE
 nerve/
 ├── src/
@@ -18,17 +19,17 @@ nerve/
 ├── README.md              # Project description
 ├── requirements.txt       # Dependencies
 └── .gitignore
------------------------------------------------
-Dataset
+
+DATASET
 
 This project uses the Ultrasound Nerve Segmentation dataset from Kaggle.
 You need to download it manually or via the Kaggle API.
 
-🔗 Dataset Link:
-
+🔗 DATASET LINK:
 Kaggle: https:https://www.kaggle.com/competitions/ultrasound-nerve-segmentation/data
-----------------------------------------------------
-How to Download
+
+
+HOW TO DOWNLOAD
 Option 1 — Manually
 Go to the link above and click Download All.
 Extract the zip file.
@@ -43,9 +44,9 @@ dataset/
         ├── 1_1_mask.tif
         ├── 1_2_mask.tif
         └── ...
-----------------------------------------------------
-⚙️ Installation & Setup
 
+
+⚙️INSTALLATION AND SETUP
 1.Clone this repository:git clone 
 https://github.com/ROSHINI0211/ultrasound-nerve-segmentation.git
 cd ultrasound-nerve-segmentation
@@ -56,17 +57,18 @@ conda activate nerve_seg
 python -m src.train
 4.Making Predictions
 python -m src.predict
-----------------------------------------------------
-Model Details
 
+
+MODEL DETAILS
 Architecture: U-Net
 Loss: 50% Binary Cross-Entropy + 50% Dice Loss
 Optimizer: Adam (lr=1e-5)
 Scheduler: ReduceLROnPlateau
 Metric: Dice Coefficient
 Epochs: 40
---------------------------------------------------
-Technologies Used
+
+
+TECHNOLOGIES USED
 Python 3.10
 PyTorch
 OpenCV
