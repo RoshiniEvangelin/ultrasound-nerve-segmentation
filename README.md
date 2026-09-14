@@ -8,7 +8,7 @@ A U-Net built from scratch in PyTorch to automatically segment nerve structures 
 <p align="center"><sub>Input ultrasound scan &nbsp;•&nbsp; ground-truth mask &nbsp;•&nbsp; model prediction</sub></p>
 
 ![Python](<img width="788" height="256" alt="image" src="https://github.com/user-attachments/assets/ba9e42b4-7138-4045-9586-3b35b14312db" />
-e)
+)
 ![PyTorch](https://img.shields.io/badge/PyTorch-deep%20learning-EE4C2C)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
