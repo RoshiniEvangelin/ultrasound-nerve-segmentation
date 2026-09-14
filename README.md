@@ -3,7 +3,7 @@
 A U-Net built from scratch in PyTorch to automatically segment nerve structures in ultrasound images — trained end-to-end with a combined BCE + Dice loss and evaluated with the Dice coefficient.
 
 <p align="center">
-  <img src="<img width="788" height="256" alt="image" src="https://github.com/user-attachments/assets/0ab23e93-1419-474e-9350-b3cc31067af7" />
+  <img src="<blob:https://claude.ai/0970b9a5-3170-45fd-9488-b8539f3f9a9c" />
 " />
 </p>
 
