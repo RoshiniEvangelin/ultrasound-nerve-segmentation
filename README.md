@@ -3,10 +3,9 @@
 A U-Net built from scratch in PyTorch to automatically segment nerve structures in ultrasound images — trained end-to-end with a combined BCE + Dice loss and evaluated with the Dice coefficient.
 
 <p align="center">
-  <img src="<blob:https://claude.ai/0970b9a5-3170-45fd-9488-b8539f3f9a9c" />
-" />
+  <img src="examples/demo_comparison.png" width="700" alt="Input ultrasound scan, ground-truth mask, and model prediction side by side" />
 </p>
-
+<p align="center"><sub>Input ultrasound scan &nbsp;•&nbsp; ground-truth mask &nbsp;•&nbsp; model prediction</sub></p>
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-deep%20learning-EE4C2C)
